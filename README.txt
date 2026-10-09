@@ -1,26 +1,29 @@
-HOTEL AARAMBH PALACE — WEBSITE PACKAGE
+HOTEL AARAMBH PALACE — UPDATED WEBSITE PACKAGE
 
-Updated with:
-- Hotel exterior photo as the homepage hero/banner and gallery image.
-- Guest room and lift lobby photos in the room cards/gallery.
-- Room categories: Deluxe Room (08), Super Deluxe Room (08), Premium Executive Room (06).
-- Amenities requested: AC, free Wi-Fi, power backup, lift/elevator, 24/7 room service, restaurant, TV, fully furnished bedrooms, fire exit, washroom/bathroom, housekeeping, geyser, reception, caretaker, security, electric kettle.
-- Phone/WhatsApp: +91 93360 46112
+Changes in this version:
+- Removed the images/ subfolder. All four images sit beside index.html in the root.
+- Updated all image paths to match the root-level images.
+- Removed room-count badges from room cards.
+- Room cards display photos: Deluxe uses deluxe-room.jpeg; Super Deluxe and Premium Executive use the supplied guest-room photos.
+- Room rates displayed:
+  * Deluxe Room — ₹1,800 per room per night
+  * Super Deluxe Room — ₹2,200 per room per night
+  * Premium Executive Room — ₹2,500 per room per night
+- Added booking request form: guest name, phone, check-in/out dates, room category, room count, adults, children, and special requests.
+- Form opens WhatsApp with the entered details; booking is not automatically confirmed.
+- Contact / WhatsApp: +91 93360 46112
 - Email: aarambhpalace5@gmail.com
-- WhatsApp booking links throughout the site.
-- Static HTML with local images, compatible with free GitHub Pages hosting.
+- Free GitHub Pages compatible.
 
-IMPORTANT:
-Please verify all amenities are currently available at the property before publishing. The room counts and categories are included exactly as provided. The location is shown as Ayodhya, Uttar Pradesh; add the precise street address if you want it displayed.
+FILES:
+index.html
+hotel-exterior.jpeg
+deluxe-room.jpeg
+super-deluxe-room.jpeg
+lift-lobby.jpeg
+README.txt
 
-PUBLISH ON GITHUB PAGES FOR FREE:
-1. Sign in at https://github.com/
-2. Create a Public repository, for example: aarambh-palace-hotel.
-3. Extract this ZIP and upload index.html plus the images folder to the repository root.
-4. Commit the files.
-5. Go to Settings > Pages.
-6. Under Build and deployment, select Deploy from a branch, choose main and /(root), then Save.
-7. Your site will appear at https://YOUR-GITHUB-USERNAME.github.io/aarambh-palace-hotel/ after deployment.
-8. Test the site on mobile and test WhatsApp booking links.
+GITHUB PAGES:
+Upload all five files (index.html, README.txt, and four image files) to the repository root. Do not create an images folder. Then go to Settings > Pages, choose Deploy from a branch, select main and /(root), and Save.
 
-No paid hosting is required for a public GitHub Pages site. This website directs enquiries to WhatsApp and does not store booking details or take online payments.
+Please confirm whether the room rates are per night and verify amenities and hotel details before publishing.
