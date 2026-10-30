@@ -15,11 +15,11 @@ header{position:sticky;top:0;background:#fff;z-index:5;box-shadow:0 2px 15px #00
 nav{display:flex;align-items:center;gap:22px;font-size:14px}nav a{text-decoration:none}nav a:hover{color:var(--gold)}
 .lang{border:1px solid #d8d4c9;background:white;padding:8px 12px;border-radius:20px;cursor:pointer}
 .btn{display:inline-block;text-decoration:none;background:var(--gold);color:#1d2a24;padding:13px 22px;border-radius:3px;font-weight:bold;border:0;cursor:pointer}.btn.dark{background:var(--green);color:white}.btn.outline{background:transparent;border:1px solid #fff;color:white}
-.hero{min-height:590px;background:linear-gradient(90deg,#102b25e8,#102b2570),url('images/hotel-hero.jpg') center 52%/cover no-repeat;display:flex;align-items:center;color:#fff;padding:75px 8%}
+.hero{min-height:590px;background:linear-gradient(90deg,#102b25e8,#102b2570),url('hotel-hero.jpg') center 52%/cover no-repeat;display:flex;align-items:center;color:#fff;padding:75px 8%}
 .hero-inner{max-width:690px}.eyebrow{color:#e0c58e;letter-spacing:3px;text-transform:uppercase;font-size:12px;font-weight:bold}
 h1{font:clamp(42px,6vw,70px)/1.08 Georgia,serif;margin:18px 0} .hero p{font-size:18px;max-width:580px;color:#f2f2ec}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
 section{padding:78px 7%}.section-head{text-align:center;max-width:720px;margin:0 auto 42px}.section-head .eyebrow{color:#a27d3d}.section-head h2{font:clamp(30px,4vw,43px) Georgia,serif;color:var(--green);margin:8px 0}.section-head p{color:var(--muted);margin:0}
-.about{background:var(--cream);display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.photo-placeholder{min-height:380px;background:url('images/reception.jpg') center/cover no-repeat;border:8px solid white;outline:1px solid #e3dccf;border-radius:2px}.about h2{font:40px Georgia,serif;color:var(--green);line-height:1.15}.about p{color:#59645e}
+.about{background:var(--cream);display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.photo-placeholder{min-height:380px;background:url('reception.jpg') center/cover no-repeat;border:8px solid white;outline:1px solid #e3dccf;border-radius:2px}.about h2{font:40px Georgia,serif;color:var(--green);line-height:1.15}.about p{color:#59645e}
 .rooms{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;max-width:1000px;margin:auto}.room{border:1px solid #e9e5dc;background:#fff}.room-img{height:260px;background-position:center;background-size:cover;background-repeat:no-repeat}.room-body{padding:24px}.room h3{font:26px Georgia,serif;color:var(--green);margin:0 0 8px}.room p{color:var(--muted);margin:0}
 .gallery{background:#fff}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:1150px;margin:auto}.gallery-grid img{display:block;width:100%;height:250px;object-fit:cover;border-radius:3px;box-shadow:0 5px 18px #00000012}.features{background:var(--green);color:white}.features .section-head h2{color:white}.features .section-head p{color:#d4ded8}.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:1100px;margin:auto}.feature{border:1px solid #ffffff30;padding:22px;text-align:center;min-height:135px}.feature b{display:block;color:#e2c58b;margin:8px 0}.feature span{font-size:13px;color:#e1e9e4}
 .details{background:var(--cream)}.detail-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;max-width:1100px;margin:auto}.detail{background:white;padding:25px;border-top:3px solid var(--gold)}.detail h3{font:22px Georgia,serif;color:var(--green);margin:0 0 12px}.detail ul{padding-left:18px;margin:0;color:#59645e;font-size:14px}
@@ -60,24 +60,24 @@ footer{background:#102a25;color:#dce5df;padding:30px 7%;display:flex;justify-con
 <section id="rooms">
  <div class="section-head"><div class="eyebrow" data-en="Stay your way">Stay your way</div><h2 data-en="Rooms & Accommodation">Rooms & Accommodation</h2><p data-en="Choose the room category that suits your stay. Contact us for current rates and availability.">Choose the room category that suits your stay. Contact us for current rates and availability.</p></div>
  <div class="rooms">
-  <article class="room"><div class="room-img" role="img" aria-label="Super Deluxe room" style="background-image:url('images/room-super-deluxe.jpg')"></div><div class="room-body"><h3 data-en="Super Deluxe">Super Deluxe</h3><p data-en="A comfortable room category for a relaxing stay.">A comfortable room category for a relaxing stay.</p></div></article>
-  <article class="room"><div class="room-img" role="img" aria-label="Premium Executive room" style="background-image:url('images/room-premium.jpg')"></div><div class="room-body"><h3 data-en="Premium Executive">Premium Executive</h3><p data-en="An upgraded room option for guests seeking extra comfort.">An upgraded room option for guests seeking extra comfort.</p></div></article>
+  <article class="room"><div class="room-img" role="img" aria-label="Super Deluxe room" style="background-image:url('room-super-deluxe.jpg')"></div><div class="room-body"><h3 data-en="Super Deluxe">Super Deluxe</h3><p data-en="A comfortable room category for a relaxing stay.">A comfortable room category for a relaxing stay.</p></div></article>
+  <article class="room"><div class="room-img" role="img" aria-label="Premium Executive room" style="background-image:url('room-premium.jpg')"></div><div class="room-body"><h3 data-en="Premium Executive">Premium Executive</h3><p data-en="An upgraded room option for guests seeking extra comfort.">An upgraded room option for guests seeking extra comfort.</p></div></article>
  </div>
 </section>
 <section class="gallery" id="gallery">
  <div class="section-head"><div class="eyebrow" data-en="A glimpse inside">A glimpse inside</div><h2 data-en="Explore Aarambh Palace">Explore Aarambh Palace</h2><p data-en="Comfortable rooms, welcoming spaces and thoughtful details for your stay.">Comfortable rooms, welcoming spaces and thoughtful details for your stay.</p></div>
  <div class="gallery-grid">
-  <img src="images/room-premium-wide.jpg" alt="Spacious guest room with king bed and seating" loading="lazy">
-  <img src="images/lift.jpg" alt="Hotel lift lobby" loading="lazy">
-  <img src="images/bathroom-brown.jpg" alt="Guest bathroom with modern fittings" loading="lazy">
-  <img src="images/bathroom-blue.jpg" alt="Bright guest bathroom" loading="lazy">
-  <img src="images/room-detail.jpg" alt="Guest room interior" loading="lazy">
-  <img src="images/ram-mandir.jpg" alt="Shri Ram Mandir, Ayodhya" loading="lazy">
+  <img src="room-premium-wide.jpg" alt="Spacious guest room with king bed and seating" loading="lazy">
+  <img src="lift.jpg" alt="Hotel lift lobby" loading="lazy">
+  <img src="bathroom-brown.jpg" alt="Guest bathroom with modern fittings" loading="lazy">
+  <img src="bathroom-blue.jpg" alt="Bright guest bathroom" loading="lazy">
+  <img src="room-detail.jpg" alt="Guest room interior" loading="lazy">
+  <img src="ram-mandir.jpg" alt="Shri Ram Mandir, Ayodhya" loading="lazy">
  </div>
 </section>
 <section id="restaurant" class="details restaurant-section">
  <div class="section-head"><div class="eyebrow" data-en="Dine with us">Dine with us</div><h2 data-en="Restaurant at Aarambh Palace">Restaurant at Aarambh Palace</h2><p data-en="Enjoy a welcoming dining space during your stay. Contact our team for current menu and dining timings.">Enjoy a welcoming dining space during your stay. Contact our team for current menu and dining timings.</p></div>
- <div class="restaurant-layout"><img src="images/restaurant.jpg" alt="Restaurant dining area at Aarambh Palace" loading="lazy"><div><h3 data-en="A comfortable place to dine">A comfortable place to dine</h3><p data-en="A warm, well-lit dining room with comfortable seating for guests and visitors.">A warm, well-lit dining room with comfortable seating for guests and visitors.</p><p data-en="For dining enquiries, please call or WhatsApp our team.">For dining enquiries, please call or WhatsApp our team.</p><a class="btn dark" href="https://wa.me/919336046112?text=Namaste%20Aarambh%20Palace%2C%20mujhe%20restaurant%20ke%20baare%20mein%20jaankari%20chahiye." target="_blank" rel="noopener" data-en="Restaurant Enquiry">Restaurant Enquiry</a></div></div>
+ <div class="restaurant-layout"><img src="restaurant.jpg" alt="Restaurant dining area at Aarambh Palace" loading="lazy"><div><h3 data-en="A comfortable place to dine">A comfortable place to dine</h3><p data-en="A warm, well-lit dining room with comfortable seating for guests and visitors.">A warm, well-lit dining room with comfortable seating for guests and visitors.</p><p data-en="For dining enquiries, please call or WhatsApp our team.">For dining enquiries, please call or WhatsApp our team.</p><a class="btn dark" href="https://wa.me/919336046112?text=Namaste%20Aarambh%20Palace%2C%20mujhe%20restaurant%20ke%20baare%20mein%20jaankari%20chahiye." target="_blank" rel="noopener" data-en="Restaurant Enquiry">Restaurant Enquiry</a></div></div>
 </section>
 <section class="features" id="facilities">
  <div class="section-head"><div class="eyebrow" data-en="Thoughtful conveniences">Thoughtful conveniences</div><h2 data-en="Facilities & Amenities">Facilities & Amenities</h2><p data-en="The essentials to make your stay easy and comfortable.">The essentials to make your stay easy and comfortable.</p></div>

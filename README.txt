@@ -1,9 +1,1 @@
-AARAMBH PALACE WEBSITE - HINDI DEFAULT VERSION
-
-This package contains the updated Aarambh Palace website with Hindi as the default language, an English/Hindi toggle, restaurant photo, and WhatsApp booking enquiry form.
-
-Files: index.html and images/
-
-To publish: upload the contents of the aarambh_palace_website folder to your hosting website root. Keep the images folder alongside index.html.
-
-Booking requests open WhatsApp to +91 93360 46112. This is an enquiry form; a booking is confirmed only after the hotel replies.
+Aarambh Palace website with corrected image paths for the existing GitHub repository layout. Upload index.html and all image files together to the repository root. Do not put these image files into a nested images folder unless you also change the paths in index.html.
