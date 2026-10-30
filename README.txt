@@ -1,12 +1,9 @@
-HOTEL AARAMBH PALACE — FRESH WEBSITE
+AARAMBH PALACE WEBSITE - HINDI DEFAULT VERSION
 
-Files: index.html and the hotel photos. Keep all files together in the repository root.
+This package contains the updated Aarambh Palace website with Hindi as the default language, an English/Hindi toggle, restaurant photo, and WhatsApp booking enquiry form.
 
-GitHub Pages setup:
-1. Extract this ZIP on your computer.
-2. Open your GitHub website repository. Back up the old files first.
-3. Delete the old website files from the repository (especially the old index.html and old images), then upload all files from this ZIP to the repository root. Alternatively, use a new repository.
-4. Commit the changes. In Settings > Pages, choose Deploy from a branch, select main and / (root), then Save.
-5. Wait a few minutes and refresh the website.
+Files: index.html and images/
 
-The booking form opens WhatsApp and sends an enquiry draft; it does not automatically confirm reservations. Rates shown are indicative; confirm final rates and availability with the hotel.
+To publish: upload the contents of the aarambh_palace_website folder to your hosting website root. Keep the images folder alongside index.html.
+
+Booking requests open WhatsApp to +91 93360 46112. This is an enquiry form; a booking is confirmed only after the hotel replies.
